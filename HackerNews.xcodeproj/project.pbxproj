@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF8B0DFF28B40A16008AFAC8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B0DFE28B40A16008AFAC8 /* NetworkManager.swift */; };
+		BF8B0E0128B40DB1008AFAC8 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B0E0028B40DB1008AFAC8 /* PostData.swift */; };
+		BF8B0E0428B414F1008AFAC8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B0E0328B414F1008AFAC8 /* DetailView.swift */; };
+		BF8B0E0628B41A70008AFAC8 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B0E0528B41A70008AFAC8 /* WebView.swift */; };
 		BFB5630528B4024500734049 /* HackerNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5630428B4024500734049 /* HackerNewsApp.swift */; };
 		BFB5630728B4024500734049 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5630628B4024500734049 /* ContentView.swift */; };
 		BFB5630928B4024800734049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB5630828B4024800734049 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF8B0DFE28B40A16008AFAC8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BF8B0E0028B40DB1008AFAC8 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		BF8B0E0328B414F1008AFAC8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BF8B0E0528B41A70008AFAC8 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		BFB5630128B4024500734049 /* HackerNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB5630428B4024500734049 /* HackerNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsApp.swift; sourceTree = "<group>"; };
 		BFB5630628B4024500734049 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +79,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF8B0DFD28B409FE008AFAC8 /* MOdels */ = {
+			isa = PBXGroup;
+			children = (
+				BF8B0DFE28B40A16008AFAC8 /* NetworkManager.swift */,
+				BF8B0E0028B40DB1008AFAC8 /* PostData.swift */,
+			);
+			path = MOdels;
+			sourceTree = "<group>";
+		};
+		BF8B0E0228B414C6008AFAC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFB5630628B4024500734049 /* ContentView.swift */,
+				BF8B0E0328B414F1008AFAC8 /* DetailView.swift */,
+				BF8B0E0528B41A70008AFAC8 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BFB562F828B4024500734049 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +121,9 @@
 		BFB5630328B4024500734049 /* HackerNews */ = {
 			isa = PBXGroup;
 			children = (
+				BF8B0DFD28B409FE008AFAC8 /* MOdels */,
 				BFB5630428B4024500734049 /* HackerNewsApp.swift */,
-				BFB5630628B4024500734049 /* ContentView.swift */,
+				BF8B0E0228B414C6008AFAC8 /* Views */,
 				BFB5630828B4024800734049 /* Assets.xcassets */,
 				BFB5630A28B4024800734049 /* Preview Content */,
 			);
@@ -257,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF8B0DFF28B40A16008AFAC8 /* NetworkManager.swift in Sources */,
+				BF8B0E0128B40DB1008AFAC8 /* PostData.swift in Sources */,
 				BFB5630728B4024500734049 /* ContentView.swift in Sources */,
+				BF8B0E0628B41A70008AFAC8 /* WebView.swift in Sources */,
+				BF8B0E0428B414F1008AFAC8 /* DetailView.swift in Sources */,
 				BFB5630528B4024500734049 /* HackerNewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
